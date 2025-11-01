@@ -9,4 +9,5 @@ Ainda não sei muitas coisas, mas nada que o estudo e a prática não resolvam. 
 Em breve quero implementar novas funcionalidades e continuar melhorando
 
 
-    
+  <img width="213" height="469" alt="image" src="https://github.com/user-attachments/assets/cd03835b-0531-4e75-90e1-0b78142038c6" />
+
