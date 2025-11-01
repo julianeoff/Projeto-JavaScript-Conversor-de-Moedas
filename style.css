@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    outline: none;
+
+    
+}
+body{
+    background-color: white;
+    ;
+
+}
+
+.logo-dinheiro{
+    width: 195px;
+    display: block;     /* Centraliza o ícone horizontalmente */
+    margin: 20px auto;
+
+}
+.logo-brasil{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;   /* Impede que a imagem encolha */
+
+}
+
+main{
+    width: 375px;           /* Largura do contêiner principal */
+    background: #33cccc;
+    border-radius: 22px;   /* Adicionando bordas arredondadas */
+    margin: 0 auto 40px;         /* Centraliza o contêiner principal */
+    padding: 44px 24px 23px;
+    max-width: 100%;        /* Garante que o contêiner não ultrapasse a largura da tela */
+    margin-bottom: 30px;
+    
+     
+}
+
+label{
+    color: rgb(0, 6, 11);
+    font-weight: 400px;
+    font-size: 14px;
+    
+}
+
+select, input {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;   /* Adicionando preenchimento à esquerda */
+    font-weight: 700;      /* Adicionando peso da fonte */
+    font-size: 16px;       /* Adicionando tamanho de fonte */
+    color: rgb(0, 6, 11); /* Cor do texto */
+    transition: border-color 0.3s ease; /* Adicionando transição suave para a borda */
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    height: 48px;
+    background:  #010909f1;
+    border-radius: 5px;
+    border: none;
+    color: rgb(248, 249, 250);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;       /* Adicionando cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Adicionando transição suave para a cor de fundo */
+}
+button:hover {
+    background: #56d4d4; /* Cor de fundo ao passar o mouse */
+}
+section {
+
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+.seta {
+   margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; /* Espaçamento entre os elementos dentro da caixa */
+
+}
+
+.currency-name{
+    color: rgb(0, 6, 11);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.currency-values, .currency-values-to-convert{
+    color: rgb(0, 6, 11);
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
